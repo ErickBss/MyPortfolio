@@ -1,0 +1,315 @@
+
+body{
+    font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+}
+#active{
+    color:var(--main-color);
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+}
+.content-left{
+    margin-top: 11.5%;
+    margin-left: 11vw;
+}
+ .content-left h1{ 
+    color: var(--sec-color);
+    font-size: 2vw;
+}
+.content-left p{
+    width: 30vw;
+    font-size: 1.2vw;
+}
+.content-left a{
+    text-decoration: none;
+    color: white;
+}
+
+.content-right{
+    margin-top: 14vh;
+    margin-left: 13vw;
+    height: 63.79vh;
+    width: 30.18vw;
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.content-right a{
+    text-decoration: none;
+    color: var(--sec-color);
+}
+
+.box-one{
+    align-items: center;
+    float: left;
+    background-color:white;
+    color: var(--sec-color);
+    width: 10vw;
+    height: 25vh;
+    border-radius: 10px;
+    box-shadow: 10px 10px 100px grey;
+}
+.box-one .iconify{   
+    width: 5vw;
+    height: 8vh;
+    margin-left: 26%;
+    margin-top: 20%;
+}
+.box-one p{
+    text-align: center;
+    margin-top:15%;
+    font-size: 1.2vw;
+}
+
+.box-one:hover{
+    transition: 0.5s;
+    background-color: var(--sec-color);
+    color:white;
+}
+
+.box-two{
+    margin: 0px 0px 0px 5vw;
+    background-color: white;
+    width: 10vw;
+    height: 25vh;
+    border-radius: 10px;
+    box-shadow: 10px 10px 100px grey;
+}
+
+.box-two .iconify{
+    width: 5vw;
+    height: 8vh;
+    margin-left: 25%;
+    margin-top: 20%;
+}
+
+.box-two p{
+    text-align: center;
+    margin-top:15%;
+    font-size: 1.2vw;
+
+}
+.box-two:hover{
+    transition: 0.5s;
+    background-color: var(--sec-color);
+    color:white;
+}
+.box-three{
+    background-color:white ;
+    width: 10vw;
+    height: 25vh;
+    border-radius: 10px;   
+    box-shadow: 10px 10px 100px grey;
+}
+
+.box-three .iconify{
+    width: 5vw;
+    height: 8vh;
+    margin-left: 25%;
+    margin-top: 20%;
+}
+
+.box-three p{
+    text-align: center;
+    margin-top:15%;
+    font-size: 1.2vw;
+
+}
+
+.box-three:hover{
+    transition: 0.5s;
+    background-color: var(--sec-color);
+    color:white;
+}
+
+/* Begginning of down pages */
+
+/*First project*/
+
+.container-proj1{
+     background-image:url("Img/projects/backP2.png"); 
+     background-repeat: no-repeat;
+     background-size:contain;
+     background-color:#f6f6f6 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100vw;
+    gap: 15px;
+  
+}
+
+.description{
+    width: auto;
+    margin-left: 20%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    flex-direction: column;
+}
+.description h1{
+    font-size: 1.6rem;
+    color: var(--sec-color);
+}
+.description  h3{
+    color: var(--main-color);
+}
+.description  p{
+    color: var(--sec-color);
+    font-size: 1rem;
+}
+
+.container-slider{
+    margin-left: -4.6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#slider {
+    width: 55vw;
+    min-width: 400px;
+    height: 58vh;
+    min-height: 150px;
+    margin-bottom: 4%;
+    position: relative;
+}
+
+#slider img {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 13px;
+    transition: opacity 800ms;
+}
+
+#slider img.selected{
+    opacity: 1;
+}
+
+/* Details */
+.details{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    width: 100vw;
+    background-color:#e3e3e3 ;
+}
+
+.details > h4{
+    color: purple;
+}
+
+aside .iconify{
+    cursor: pointer;
+    margin-left: 10px;
+    width: 3vw;
+    height: 4vw;
+}
+
+
+
+ /* Second Project */
+.container-proj2{
+    background-image:url("Img/projects/backP3.png"); 
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-color:#f6f6f6 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100vw;  
+    gap: 20px;
+}
+.container-proj2 > .description{
+    width: 40%;
+    padding:10px;
+    background-color: var(--sec-color);
+    border-radius: 12px;
+}
+.container-proj2 .description h1, .container-proj2 .description p{
+    color:#f6f6f6;
+}
+
+#slider2 {
+    width: 55vw;
+    min-width: 400px;
+    height: 58vh;
+    min-height: 150px;
+    position: relative;
+    margin-bottom: 5%;
+}
+
+#slider2 img {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 13px;
+    transition: opacity 800ms;
+}
+
+#slider2 img.selected{
+    opacity: 1;
+}
+
+/*Third Project */
+
+.container-proj3{
+    background-image:url("Img/projects/backP2.png"); 
+    background-repeat: no-repeat;
+    background-size:contain;
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-proj3 .description{
+    display: flex;
+    
+    gap: 10px;
+    transform: translateX(-30px);
+}
+
+.container-proj3 .description aside {
+    display: flex;
+    flex-flow:row, wrap ;
+    align-items: center;
+    background-color:#e3e3e3 ;
+    color: var(--sec-color);
+    height: 10vh;
+    width: 30vw;
+    gap: 10px;
+    border-radius: 12px;
+}
+
+.container-proj3 .description aside h3{
+    color: var(--sec-color);
+}
+
+.illustration{
+    width: 50%;
+}
+
+.illustration > img{
+    width: 600px;
+    min-width:400px;
+    transform: translateX(-30px);
+}
